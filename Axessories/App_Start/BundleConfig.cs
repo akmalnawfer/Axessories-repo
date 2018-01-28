@@ -27,7 +27,7 @@ namespace Axessories
 
                 "~/Content/css/bootstrap.min.css",
                 "~/Content/css/ioniconsmin.css",
-                "~/Content/css/font-awesome.min.css",
+                //"~/Content/css/font-awesome.min.css",
                 "~/Content/css/main.css",
                 "~/Content/css/style.css",
                 "~/Content/css/responsive.css"
