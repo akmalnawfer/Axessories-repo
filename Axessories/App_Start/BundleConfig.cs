@@ -26,8 +26,7 @@ namespace Axessories
             bundles.Add(new StyleBundle("~/css-contents").Include(
 
                 "~/Content/css/bootstrap.min.css",
-                "~/Content/css/ioniconsmin.css",
-                //"~/Content/css/font-awesome.min.css",
+                "~/Content/css/ionicons.min.css",
                 "~/Content/css/main.css",
                 "~/Content/css/style.css",
                 "~/Content/css/responsive.css"
@@ -42,6 +41,10 @@ namespace Axessories
                 "~/Content/rs-plugin/js/jquery.tp.t.min.js",
                 "~/Content/rs-plugin/js/jquery.tp.min.js",
                 "~/Content/js/main.js"
+                ));
+
+            bundles.Add(new ScriptBundle("~/Index/css").Include(
+                "~/Content/css/font-awesome.min.css"
                 ));
         }
     }
