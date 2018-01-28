@@ -32,6 +32,17 @@ namespace Axessories
                 "~/Content/css/style.css",
                 "~/Content/css/responsive.css"
                 ));
+            bundles.Add(new ScriptBundle("~/Contents/js").Include(
+                "~/Content/js/vendors/jquery/jquery.min.js",
+                "~/Content/js/vendors/wow.min.js",
+                "~/Content/js/vendors/bootstrap.min.js",
+                "~/Content/js/vendors/own-menu.js",
+                "~/Content/js/vendors/jquery.sticky.js",
+                "~/Content/js/vendors/owl.carousel.min.js",
+                "~/Content/rs-plugin/js/jquery.tp.t.min.js",
+                "~/Content/rs-plugin/js/jquery.tp.min.js",
+                "~/Content/js/main.js"
+                ));
         }
     }
 }
