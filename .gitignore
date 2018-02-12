@@ -363,3 +363,4 @@ __pycache__/
 *.xsd.cs
 vs gitignore.txt
 Displaying vs gitignore.txt.
+/DataAccess/Migrations
