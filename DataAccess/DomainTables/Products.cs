@@ -13,5 +13,9 @@ namespace DataAccess.DomainTables
         public Products() : base("AxessoriesContext") { }
 
         public DbSet<Phones> Phones { get; set; }
+        public DbSet<Televisions> Televisions { get; set; }
+        public DbSet<Watches> Watches { get; set; }
+        public DbSet<Accessories> Accessories { get; set; }
+        public DbSet<Audios> Audios { get; set; }
     }
 }

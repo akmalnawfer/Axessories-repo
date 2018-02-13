@@ -11,12 +11,13 @@ namespace DataAccess.Products
         public string Brand { get; set; }
         public string Model { get; set; }
         public string ProductName { get; set; }
-        public int Category { get; set; }
+        public int Category { get; set; } //get from enum
         public string ModelNumber { get; set; }
         public int Price { get; set; }
         public int Quantity { get; set; }
         public string Colour { get; set; }
         public string ImageURL { get; set; }
         public DateTime CreatedOn { get; set; }
+        public int Status { get; set; } //get from enum
     }
 }

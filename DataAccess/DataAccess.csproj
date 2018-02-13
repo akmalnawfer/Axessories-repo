@@ -64,9 +64,37 @@
     <Compile Include="Migrations\201802121756329_added_created_on_date.Designer.cs">
       <DependentUpon>201802121756329_added_created_on_date.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802131435310_added_televisions_table.cs" />
+    <Compile Include="Migrations\201802131435310_added_televisions_table.Designer.cs">
+      <DependentUpon>201802131435310_added_televisions_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802131437541_added_product_status_field.cs" />
+    <Compile Include="Migrations\201802131437541_added_product_status_field.Designer.cs">
+      <DependentUpon>201802131437541_added_product_status_field.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802131449048_added_watches_table.cs" />
+    <Compile Include="Migrations\201802131449048_added_watches_table.Designer.cs">
+      <DependentUpon>201802131449048_added_watches_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802131450090_added_watches_table1.cs" />
+    <Compile Include="Migrations\201802131450090_added_watches_table1.Designer.cs">
+      <DependentUpon>201802131450090_added_watches_table1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802131505191_added_accessories_table.cs" />
+    <Compile Include="Migrations\201802131505191_added_accessories_table.Designer.cs">
+      <DependentUpon>201802131505191_added_accessories_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802131607165_added_fixes_tables.cs" />
+    <Compile Include="Migrations\201802131607165_added_fixes_tables.Designer.cs">
+      <DependentUpon>201802131607165_added_fixes_tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Products\Accessories.cs" />
+    <Compile Include="Products\Audios.cs" />
     <Compile Include="Products\Phones.cs" />
     <Compile Include="Products\ProductsCommon.cs" />
+    <Compile Include="Products\Televisions.cs" />
+    <Compile Include="Products\Watches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +113,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802121756329_added_created_on_date.resx">
       <DependentUpon>201802121756329_added_created_on_date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131435310_added_televisions_table.resx">
+      <DependentUpon>201802131435310_added_televisions_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131437541_added_product_status_field.resx">
+      <DependentUpon>201802131437541_added_product_status_field.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131449048_added_watches_table.resx">
+      <DependentUpon>201802131449048_added_watches_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131450090_added_watches_table1.resx">
+      <DependentUpon>201802131450090_added_watches_table1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131505191_added_accessories_table.resx">
+      <DependentUpon>201802131505191_added_accessories_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802131607165_added_fixes_tables.resx">
+      <DependentUpon>201802131607165_added_fixes_tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

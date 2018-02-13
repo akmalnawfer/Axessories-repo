@@ -19,7 +19,7 @@ namespace DataAccess.Products
         public string PrimaryCamera { get; set; }
         public string SecondaryCamera { get; set; }
         public string Processor { get; set; }
-        public int SimSlots { get; set; }
+        public int SimSlots { get; set; } //get from enum
         public int BatteryCapacity { get; set; }
         public string OperatingSystem { get; set; }
     }
