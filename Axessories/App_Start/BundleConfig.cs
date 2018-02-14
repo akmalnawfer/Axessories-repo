@@ -43,7 +43,7 @@ namespace Axessories
                 "~/Content/js/main.js"
                 ));
 
-            bundles.Add(new ScriptBundle("~/Index/css").Include(
+            bundles.Add(new StyleBundle("~/Index/css").Include(
                 "~/Content/css/font-awesome.min.css"
                 ));
         }

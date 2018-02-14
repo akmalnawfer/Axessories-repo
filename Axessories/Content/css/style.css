@@ -220,144 +220,27 @@ section {
       TOP BAR
 ========================================================*/
 .top-bar {
-	height: 35px;
 	background: #f8f8f8;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 2px solid #ebebeb;
 }
-.top-bar p {
-	line-height: 35px;
-	margin: 0px;
-	font-size: 13px;
-	font-weight: normal;
-	display: inline-block;
-}
-.top-bar ul li {
-	display: inline-block;
-}
-.top-bar i {
-	margin-right: 5px;
-}
-.top-bar .flaticon-email-envelope-outline-shape-with-rounded-corners {
-	margin-left: 50px;
-}
-.top-bar .social-top {
-	float: right;
-}
-.top-bar .social-top a {
-	line-height: 33px;
-	color: #555555;
-	font-size: 13px;
-	margin: 0 5px;
-}
-.top-bar .social-top a i {
-	margin: 0px;
-}
-.top-bar .dropdown-menu>li>a {
-	width: 100%;
-}
-.top-bar .dropdown-menu>li>a:hover {
-	background: #0088cc !important;
-	color: #fff;
-}
-.top-bar .bootstrap-select.btn-group .dropdown-menu li {
-	width: 100%;
-	display: block;
-}
+
 .top-bar .right-sec {
 	float: right;
+	margin:15px 0;
 }
-.top-bar .right-sec ul {
-	float: left;
-}
-.top-bar .right-sec li {
-	border-right: 1px solid #dddddd;
-	margin-right: 10px;
-	margin-top: 7px;
-	line-height: 14px;
-	padding-right: 10px;
-}
-.top-bar .right-sec li a {
-	font-size: 13px;
+.top-bar .right-sec a{
+	font-size: 16px;
 	color: #555555;
+	font-weight: bold;
+	padding: 10px;
 }
-.top-bar .bootstrap-select.btn-group .dropdown-toggle .caret {
-	right: 0px;
-}
-.top-bar .btn {
-	border: none;
-	padding: 0px;
-	padding-right: 10px;
-	font-weight: normal;
-	font-size: 13px;
-	color: #555555 !important;
-	background: none !important;
-	border-radius: 0px;
-	outline: none !important;
-	box-shadow: none !important;
-}
-.top-bar .dropdown-menu>li>a {
-	padding: 5px 10px;
-	font-size: 12px;
-}
-.top-bar .foll .btn {
-	width: 93px;
-}
-.top-bar .langug {
-	margin-left: 40px;
-}
-.top-bar .langug p {
-	line-height: 30px;
-}
-.top-bar .dropdown-menu {
-	line-height: 30px;
-}
-.top-bar .dropdown-menu {
-	margin: 0px;
-	border-radius: 0px;
-	margin-top: 7px;
-	border: none;
-}
-.top-bar .search {
-	display: inline-block;
-	margin-left: 30px;
-	width: 130px;
-}
-.top-bar .search label {
+.top-bar .right-sec a:hover{
+	background: #0088cc;
+	border-radius: 30px;
 	color: #fff;
-	position: relative;
 }
-.top-bar .search label i {
-	position: absolute;
-	left: 0px;
-	line-height: 70px;
-}
-.top-bar .search input {
-	border: none;
-	padding-left: 20px;
-	outline: none !important;
-	font-weight: normal;
-	background: none;
-	color: #fff;
-	width: 100%;
-	height: 70px;
-}
-.top-bar .bootstrap-select.btn-group .dropdown-menu li {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-.top-bar .search ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
- color: #fff;
-}
-.top-bar .search ::-moz-placeholder { /* Firefox 19+ */
- color: #fff;
-}
-.top-bar .search :-ms-input-placeholder { /* IE 10+ */
- color: #fff;
-}
-.top-bar .search :-moz-placeholder { /* Firefox 18- */
- color: #fff;
-}
+
+
 /*=======================================================
       MAIN HEADER
 ========================================================*/
@@ -466,38 +349,38 @@ section {
 /*=======================================================
 			Big Nac
 ========================================================*/
-.big-nsv .nav li {
-	float: left;
+.big-nsv .nav{
 	text-align: center;
-	width: 16.66666666%;
+	padding: 10px 0;
 }
-.big-nsv .nav li i {
+.big-nsv .nav  i {
 	display: inline-block;
 	width: 100%;
-	font-size: 32px;
+	font-size: 50px;
+    color: #004d73;
 }
-.big-nsv .nav li a {
-	font-size: 15px;
+.big-nsv .nav  a {
+	text-align: center;
+	width: 100%;
 	padding-top: 25px;
 	font-weight: bold;
-	border-right: 1px solid #eeeeee;
 	min-height: 127px;
 }
-.big-nsv .nav li:nth-last-child(1) a {
-	border-right: none !important;
+
+.big-nsv .nav  a p{
+	text-align: center;
+	font-size: 20px;
+	color: #0088cc;
 }
-.big-nsv .nav li a span {
-	color: #888888;
-	font-size: 13px;
-	display: inline-block;
-	width: 100%;
-	font-weight: normal;
-}
-.big-nsv .nav li.active a {
-	background: #0088cc;
+
+.big-nsv .nav  a:hover i{
 	color: #fff;
+	background-color: #0088cc;
+	border-radius: 45px;
+	transition: .4s;
 }
-.main-tabs-sec .nav li.active a span {
+
+.main-tabs-sec .nav:active a span {
 	color: #fff;
 }
 /*=======================================================
