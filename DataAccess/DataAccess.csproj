@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DomainTables\Products.cs" />
+    <Compile Include="DomainTables\AxessoriesDb.cs" />
     <Compile Include="Migrations\201802121749222_initials.cs" />
     <Compile Include="Migrations\201802121749222_initials.Designer.cs">
       <DependentUpon>201802121749222_initials.cs</DependentUpon>
@@ -88,6 +88,46 @@
     <Compile Include="Migrations\201802131607165_added_fixes_tables.Designer.cs">
       <DependentUpon>201802131607165_added_fixes_tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802141527121_user_table_added.cs" />
+    <Compile Include="Migrations\201802141527121_user_table_added.Designer.cs">
+      <DependentUpon>201802141527121_user_table_added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141533270_user_table_added1.cs" />
+    <Compile Include="Migrations\201802141533270_user_table_added1.Designer.cs">
+      <DependentUpon>201802141533270_user_table_added1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141536370_user_table_removed.cs" />
+    <Compile Include="Migrations\201802141536370_user_table_removed.Designer.cs">
+      <DependentUpon>201802141536370_user_table_removed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141538060_user_table.cs" />
+    <Compile Include="Migrations\201802141538060_user_table.Designer.cs">
+      <DependentUpon>201802141538060_user_table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141606178_user_tables.cs" />
+    <Compile Include="Migrations\201802141606178_user_tables.Designer.cs">
+      <DependentUpon>201802141606178_user_tables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141614264_database-restructure.cs" />
+    <Compile Include="Migrations\201802141614264_database-restructure.Designer.cs">
+      <DependentUpon>201802141614264_database-restructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141616472_database-restructure-test.cs" />
+    <Compile Include="Migrations\201802141616472_database-restructure-test.Designer.cs">
+      <DependentUpon>201802141616472_database-restructure-test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141617184_database-restructure-tested.cs" />
+    <Compile Include="Migrations\201802141617184_database-restructure-tested.Designer.cs">
+      <DependentUpon>201802141617184_database-restructure-tested.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141618302_database-restructure-tested-pas.cs" />
+    <Compile Include="Migrations\201802141618302_database-restructure-tested-pas.Designer.cs">
+      <DependentUpon>201802141618302_database-restructure-tested-pas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802141647517_database-restructure-tested-passed.cs" />
+    <Compile Include="Migrations\201802141647517_database-restructure-tested-passed.Designer.cs">
+      <DependentUpon>201802141647517_database-restructure-tested-passed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Products\Accessories.cs" />
     <Compile Include="Products\Audios.cs" />
@@ -96,6 +136,7 @@
     <Compile Include="Products\Televisions.cs" />
     <Compile Include="Products\Watches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\ApplicationUsers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -132,6 +173,37 @@
     <EmbeddedResource Include="Migrations\201802131607165_added_fixes_tables.resx">
       <DependentUpon>201802131607165_added_fixes_tables.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141527121_user_table_added.resx">
+      <DependentUpon>201802141527121_user_table_added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141533270_user_table_added1.resx">
+      <DependentUpon>201802141533270_user_table_added1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141536370_user_table_removed.resx">
+      <DependentUpon>201802141536370_user_table_removed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141538060_user_table.resx">
+      <DependentUpon>201802141538060_user_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141606178_user_tables.resx">
+      <DependentUpon>201802141606178_user_tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141614264_database-restructure.resx">
+      <DependentUpon>201802141614264_database-restructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141616472_database-restructure-test.resx">
+      <DependentUpon>201802141616472_database-restructure-test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141617184_database-restructure-tested.resx">
+      <DependentUpon>201802141617184_database-restructure-tested.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141618302_database-restructure-tested-pas.resx">
+      <DependentUpon>201802141618302_database-restructure-tested-pas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802141647517_database-restructure-tested-passed.resx">
+      <DependentUpon>201802141647517_database-restructure-tested-passed.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

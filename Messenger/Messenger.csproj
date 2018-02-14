@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6AAEAB90-8751-4255-BCF5-C31CB0266F74}</ProjectGuid>
+    <ProjectGuid>{94AF594C-C308-4CE0-BF5D-0670DD4A3950}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Common</RootNamespace>
-    <AssemblyName>Common</AssemblyName>
+    <RootNamespace>Messenger</RootNamespace>
+    <AssemblyName>Messenger</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,16 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EncryptionAndDecryption\Decryption.cs" />
-    <Compile Include="EncryptionAndDecryption\Encryption.cs" />
-    <Compile Include="Enumerations\AcceessoryTypeEnum.cs" />
-    <Compile Include="Enumerations\AudioTypeEnum.cs" />
-    <Compile Include="Enumerations\BeltTypeEnum.cs" />
-    <Compile Include="Enumerations\CategoryEnum.cs" />
-    <Compile Include="Enumerations\RecordStatusEnum.cs" />
-    <Compile Include="Enumerations\SimSlotsEnum.cs" />
+    <Compile Include="MesgaeBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
