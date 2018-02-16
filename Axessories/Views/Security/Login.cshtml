@@ -1,0 +1,47 @@
+﻿@model Axessories.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="login-sec padding-top-30 padding-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Login Your Account -->
+                <h5>Login Your Account</h5>
+
+                <!-- FORM -->
+                @using (Html.BeginForm("Login", "Security", new { ReturnUrl = ViewBag.returnURL }, FormMethod.Post))
+                {
+                    <ul class="row">
+                        <li class="col-sm-12">
+                            @Html.LabelFor(m => m.EmailAddress)
+                            @Html.TextBoxFor(m => m.EmailAddress, new { placeholder = "example@example.com", @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.EmailAddress, null, new { @class = "text-danger" })
+                        </li>
+                        <li class="col-sm-12">
+                            @Html.LabelFor(m => m.Password)
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, null, new { @class = "text-danger" })
+                        </li>
+                        <li class="col-sm-6">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" name="KeepMeLoggedIn" value="true" class="styled" />
+                                <label for="KeepMeLoggedIn">
+                                    Keep me logged in
+
+                                </label>
+                            </div>
+                        </li>
+                        <li class="col-sm-6"> <a href="#." class="forget">Forgot your password?</a> </li>
+                        <li class="col-sm-12 text-left">
+                            <button type="submit" class="btn-round">Login</button>
+                        </li>
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
