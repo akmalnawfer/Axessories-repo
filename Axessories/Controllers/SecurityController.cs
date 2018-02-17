@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace Axessories.Controllers
 {
+    [AllowAnonymous]
     public class SecurityController : Controller
     {
         [HttpGet]
